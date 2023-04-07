@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos9tyg",
+    "Slug": "parallel-artificial-membrane-permeability-assay-7",
+    "Status": "In progress",
+    "Title": "Parallel Artificial Membrane Permeability Assay (PAMPA) 7",
+    "Description": "Cell membrane permeability is important for determining oral absorption and bioavailability of drug molecule. Parallel artificial membrane permeability assay (PAMPA) is a low-cost alternative to cellular models for early ADME screening. PAMPA 7 improves upon the previous PAMPA 5 assay with the addition of new membrane types.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,10 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "ADME"
+    ],
+    "Publication": "https://pubmed.ncbi.nlm.nih.gov/16922646/",
+    "Source Code": "https://github.com/ncats/ncats-adme/tree/development",
+    "License": "None"
 }
