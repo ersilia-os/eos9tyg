@@ -19,7 +19,7 @@ Parallel Artificial Membrane Permeability is an in vitro surrogate to determine 
 
 ## References
 
-* [Publication](https://www.sciencedirect.com/science/article/pii/S0968089621005964)
+* [Publication](https://slas-discovery.org/article/S2472-5552(22)06765-X/fulltext)
 * [Source Code](https://github.com/ncats/ncats-adme)
 * Ersilia contributor: [pauline-banye](https://github.com/pauline-banye)
 
@@ -30,7 +30,7 @@ Parallel Artificial Membrane Permeability is an in vitro surrogate to determine 
 
 ## Citation
 
-If you use this model, please cite the [original authors](https://www.sciencedirect.com/science/article/pii/S0968089621005964) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
+If you use this model, please cite the [original authors](https://slas-discovery.org/article/S2472-5552(22)06765-X/fulltext) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
 
