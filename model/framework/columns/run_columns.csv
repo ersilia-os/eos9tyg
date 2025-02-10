@@ -1,0 +1,2 @@
+name,type,direction,description
+pampa7.4_proba1,float,low,Probability of poor permeability at pH=7.4 (cut-off logPeff < 1)
