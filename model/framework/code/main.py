@@ -35,4 +35,6 @@ with open(input_file, "r") as f:
 
 # run model
 output_df = my_model(smiles_list)
+
+output_df.columns = [col.lower().replace('.', '') for col in output_df.columns]
 output_df.to_csv(output_file, index=False)
