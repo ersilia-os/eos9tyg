@@ -3,22 +3,26 @@
     "Slug": "ncats-pampa74",
     "Status": "Ready",
     "Title": "Parallel Artificial Membrane Permeability Assay (PAMPA) 7",
-    "Description": "Parallel Artificial Membrane Permeability is an in vitro surrogate to determine the permeability of drugs across cellular membranes. PAMPA at pH 7.4 was experimentally determined in a dataset of 5,473 unique compounds by the NIH-NCATS. 50% of the dataset was used to train a classifier (SVM) to predict the permeability of new compounds, and validated on the remaining 50% of the data, rendering an AUC = 0.88. The Peff was converted to logarithmic, log Peff value lower than 2.0 were considered to have low to moderate permeability, and those with a value higher than 2.5 were considered as high-permeability compounds. Compounds with a value between 2.0 and 2.5 were omitted from the dataset. A subset of the data is available at PubChem (AID 1645871)",
-    "Mode": "Pretrained",
-    "Task": [
-        "Classification"
-    ],
+    "Description": "Parallel Artificial Membrane Permeability is an in vitro surrogate to determine the permeability of drugs across cellular membranes. PAMPA at pH 7.4 was experimentally determined in a dataset of 5,473 unique compounds by the NIH-NCATS. 50% of the dataset was used to train a classifier (SVM) to predict the permeability of new compounds, and validated on the remaining 50% of the data, rendering an AUC = 0.88. The Peff was converted to logarithmic, log Peff value lower than 2.0 were considered to have low to moderate permeability, and those with a value higher than 2.5 were considered as high-permeability compounds. Compounds with a value between 2.0 and 2.5 were omitted from the dataset. A subset of the data is available at PubChem (AID 1645871)\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
+    "Input Dimension": 1,
+    "Task": "Annotation",
+    "Subtask": "Property calculation or prediction",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Output": [
         "Probability"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "Single",
+    "Output Dimension": 1,
+    "Output Consistency": "Fixed",
     "Interpretation": "Probability of a compound being poorly permeable (logPeff < 1)",
     "Tag": [
         "ADME",
@@ -26,12 +30,19 @@
         "LogP"
     ],
     "Publication": "https://slas-discovery.org/article/S2472-5552(22)06765-X/fulltext",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2021,
     "Source Code": "https://github.com/ncats/ncats-adme",
     "License": "None",
+    "Contributor": "pauline-banye",
+    "Incorporation Date": "2023-04-08",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos9tyg",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9tyg.zip"
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9tyg.zip",
+    "Deployment": [
+        "Local"
+    ]
 }
