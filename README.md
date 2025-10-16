@@ -2,8 +2,7 @@
 
 Parallel Artificial Membrane Permeability is an in vitro surrogate to determine the permeability of drugs across cellular membranes. PAMPA at pH 7.4 was experimentally determined in a dataset of 5,473 unique compounds by the NIH-NCATS. 50% of the dataset was used to train a classifier (SVM) to predict the permeability of new compounds, and validated on the remaining 50% of the data, rendering an AUC = 0.88. The Peff was converted to logarithmic, log Peff value lower than 2.0 were considered to have low to moderate permeability, and those with a value higher than 2.5 were considered as high-permeability compounds. Compounds with a value between 2.0 and 2.5 were omitted from the dataset. A subset of the data is available at PubChem (AID 1645871)
 
-This model was incorporated on 2023-04-07.
-
+This model was incorporated on 2023-04-07.Last packaged on 2025-10-16.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `84`
 - **Environment Size (Mb):** `2461`
-- **Image Size (Mb):** `2510.39`
+- **Image Size (Mb):** `2592.76`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.97`
-- 100 inputs: `24.56`
-- 10000 inputs: `458.81`
+- 10 inputs: `28.82`
+- 100 inputs: `18.75`
+- 10000 inputs: `112.49`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
