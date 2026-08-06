@@ -2,7 +2,7 @@
 
 Parallel Artificial Membrane Permeability Assay (PAMPA) is an in vitro surrogate for the permeability of drugs across cellular membranes. PAMPA at pH 7.4 was experimentally determined by NIH-NCATS in a dataset of 5,473 unique compounds. Half the dataset was used to train an SVM classifier, validated on the remaining half with AUC = 0.88. Peff was log-transformed: log Peff below 2.0 was taken as low to moderate permeability and above 2.5 as high permeability, with intermediate compounds omitted. A subset of the data is available at PubChem (AID 1645871).
 
-This model was incorporated on 2023-04-07.Last packaged on 2025-10-16.
+This model was incorporated on 2023-04-07.Last packaged on 2026-08-06.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `84`
 - **Environment Size (Mb):** `2443`
-- **Image Size (Mb):** `2592.76`
+- **Image Size (Mb):** `2609.52`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.82`
-- 100 inputs: `18.75`
-- 10000 inputs: `112.49`
+- 10 inputs: `25.87`
+- 100 inputs: `16.06`
+- 10000 inputs: `106.73`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
