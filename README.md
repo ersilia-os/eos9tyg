@@ -1,6 +1,6 @@
 # Parallel Artificial Membrane Permeability Assay (PAMPA) 7
 
-Assesses passive membrane permeability through a parallel artificial membrane assay, a cell-free surrogate that isolates diffusion from transporter and metabolic effects. The model is framed around poor permeability, with an effective permeability below logPeff of 1 defining the positive class at pH 7.4. Measurements were generated in house at NCATS and the resulting QSAR models were checked against marketed drugs. An artificial membrane cannot capture active transport or efflux, so results describe passive diffusion alone.
+Separates poorly permeable compounds from readily permeable ones using a parallel artificial membrane assay, a cell-free surrogate that strips transporters and metabolism out of the picture and leaves passive diffusion alone. Siramshetty and colleagues at NCATS trained a graph convolutional network on about 16,000 in-house measurements at pH 7.4, treating a log effective permeability of 2.0 or below as low to moderate and above 2.5 as high, with the band between the two discarded. Cross-validated area under the curve reached 0.90.
 
 This model was incorporated on 2023-04-07.Last packaged on 2026-08-06.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-04-07.Last packaged on 2026-08-06.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of poor passive permeability at pH 7.4, defined as an effective permeability below logPeff 1.
+- **Interpretation:** Probability of low to moderate passive permeability at pH 7.4, meaning a log effective permeability of 2.0 or below.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
