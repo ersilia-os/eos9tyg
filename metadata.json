@@ -39,7 +39,7 @@
     "License": "None",
     "Contributor": "pauline-banye",
     "Incorporation Date": "2023-04-07",
-    "Last Packaging Date": "2026-08-06",
+    "Last Packaging Date": "2026-10-15",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9tyg.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos9tyg",
@@ -49,10 +49,10 @@
     ],
     "Model Size": 84.0,
     "Environment Size": 2443.0,
-    "Image Size": 2609.52,
-    "Computational Performance 1": 25.87,
-    "Computational Performance 2": 15.76,
-    "Computational Performance 3": 16.06,
-    "Computational Performance 4": 32.43,
-    "Computational Performance 5": 106.73
+    "Image Size": 2625.19,
+    "Computational Performance 1": 29.48,
+    "Computational Performance 2": 13.49,
+    "Computational Performance 3": 13.61,
+    "Computational Performance 4": 24.99,
+    "Computational Performance 5": 75.92
 }
