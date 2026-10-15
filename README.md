@@ -28,7 +28,7 @@ This model was incorporated on 2023-04-07.Last packaged on 2026-08-06.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| pampa74_proba1 | float | low | Probability of poor permeability at pH=7.4 (cut-off logPeff < 1) |
+| pampa74_proba1 | float | high | Probability of low to moderate permeability at pH=7.4 (log Peff <= 2.0) |
 
 
 ### Source and Deployment
