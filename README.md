@@ -44,9 +44,9 @@ Below are the **Output Columns** of the model:
 - **Image Size (Mb):** `2625.19`
 
 **Computational Performance (seconds):**
-- 10 inputs: `29.48`
-- 100 inputs: `13.61`
-- 10000 inputs: `75.92`
+- 10 inputs: `26.17`
+- 100 inputs: `14.78`
+- 10000 inputs: `103.85`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
