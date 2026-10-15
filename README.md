@@ -1,6 +1,6 @@
 # Parallel Artificial Membrane Permeability Assay (PAMPA) 7
 
-Separates poorly permeable compounds from readily permeable ones using a parallel artificial membrane assay, a cell-free surrogate that strips transporters and metabolism out of the picture and leaves passive diffusion alone. Siramshetty and colleagues at NCATS trained a graph convolutional network on about 16,000 in-house measurements at pH 7.4, treating a log effective permeability of 2.0 or below as low to moderate and above 2.5 as high, with the band between the two discarded. Cross-validated area under the curve reached 0.90.
+Separates poorly permeable compounds from readily permeable ones using a parallel artificial membrane assay, a cell-free surrogate that strips transporters and metabolism out of the picture and leaves passive diffusion alone. Siramshetty and colleagues at NCATS trained a graph convolutional network on about 16,000 in-house measurements at pH 7.4, treating a log effective permeability below 2.0 as low to moderate and above 2.5 as high, with the band between the two discarded. Cross-validated area under the curve reached 0.90.
 
 This model was incorporated on 2023-04-07.Last packaged on 2026-10-15.
 
@@ -23,12 +23,12 @@ This model was incorporated on 2023-04-07.Last packaged on 2026-10-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of low to moderate passive permeability at pH 7.4, meaning a log effective permeability of 2.0 or below.
+- **Interpretation:** Probability of low to moderate passive permeability at pH 7.4, meaning a log effective permeability below 2.0.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| pampa74_proba1 | float | high | Probability of low to moderate permeability at pH=7.4 (log Peff <= 2.0) |
+| pampa74_proba1 | float | high | Probability of low to moderate permeability at pH=7.4 (log Peff < 2.0) |
 
 
 ### Source and Deployment
