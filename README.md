@@ -2,7 +2,8 @@
 
 Separates poorly permeable compounds from readily permeable ones using a parallel artificial membrane assay, a cell-free surrogate that strips transporters and metabolism out of the picture and leaves passive diffusion alone. Siramshetty and colleagues at NCATS trained a graph convolutional network on about 16,000 in-house measurements at pH 7.4, treating a log effective permeability below 2.0 as low to moderate and above 2.5 as high, with the band between the two discarded. Cross-validated area under the curve reached 0.90.
 
-This model was incorporated on 2023-04-07.Last packaged on 2026-10-15.
+This model was incorporated on 2023-04-07.
+Last packaged on 2026-10-15.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9tyg](https://hub.docker.com/r/ersiliaos/eos9tyg)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9tyg.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9tyg.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos9tyg_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos9tyg_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `84`
